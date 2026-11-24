@@ -204,7 +204,7 @@ export default function AssemblyEndgame() {
                 <button
                     className="new-game"
                     onClick={startNewGame}
-                >New Game</button>}
+                >New Game (Press Enter)</button>}
         </main>
     )
 }
