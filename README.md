@@ -4,11 +4,11 @@ A fun word-guessing game built with **React** and **Vite**, inspired by the clas
 
 ## 🚀 Live Demo
 
-> Add your deployed Vercel/Netlify link here.
+https://assembly-endgame-eight-pi.vercel.app
 
 ## 📸 Preview
 
-> Add screenshots or a GIF of the game here.
+![Assembly Endgame demo](demo.gif)
 
 ---
 
