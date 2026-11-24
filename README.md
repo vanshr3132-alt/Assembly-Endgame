@@ -1,23 +1,112 @@
+# 🎮 Assembly Endgame
 
-# React + Vite
+A fun word-guessing game built with **React** and **Vite**, inspired by the classic Hangman game. Your mission is to guess the hidden programming-related word before every programming language is eliminated and only **Assembly** remains.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo
 
-Currently, two official plugins are available:
+> Add your deployed Vercel/Netlify link here.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
 
-## React Compiler
+> Add screenshots or a GIF of the game here.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎯 Random programming-related word generated every game
+- ⌨️ **Keyboard support** — play using either your physical keyboard or the on-screen keyboard
+- 🖱️ Clickable on-screen keyboard
+- ✅ Correct and incorrect letter highlighting
+- 💀 Programming languages are eliminated after each incorrect guess
+- 🎉 Confetti animation on winning the game
+- 🔄 Start a new game instantly
+- ♿ Accessibility improvements using ARIA attributes and live regions
+- 📱 Responsive design
 
-# Assembly-Endgame
- 3a8710e51e61de71f781996a9c48036ac408d63d
+---
 
-Assembly-Endgame
- 5bb37e89ceb8ac67f9d670bcbc418025db673d67
+## 🛠️ Built With
+
+- React
+- JavaScript (ES6+)
+- Vite
+- CSS
+- clsx
+- react-confetti
+
+---
+
+## 🎮 How to Play
+
+1. A random word is selected.
+2. Guess one letter at a time.
+3. You can:
+   - Click letters on the on-screen keyboard.
+   - Use your physical keyboard.
+4. Every incorrect guess eliminates one programming language.
+5. Guess all letters before every language is eliminated to win.
+
+---
+
+## 📂 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/vanshr3132-alt/Assembly-Endgame.git
+```
+
+Navigate into the project:
+
+```bash
+cd Assembly-Endgame
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 📚 What I Learned
+
+While building this project, I practiced:
+
+- React Components
+- Props
+- State Management with `useState`
+- Side Effects with `useEffect`
+- Conditional Rendering
+- Array methods (`map`, `filter`, `every`)
+- Event Handling
+- Keyboard Events
+- Accessibility (ARIA)
+- Component-based UI design
+
+---
+
+## 🌱 Future Improvements
+
+- Difficulty levels
+- Game statistics (Wins/Losses/Streaks)
+- Timer mode
+- Categories
+- Dark mode
+- Sound effects and animations
+
+---
+
+## 👨‍💻 Author
+
+**Vansh Rana**
+
+GitHub: https://github.com/vanshr3132-alt
