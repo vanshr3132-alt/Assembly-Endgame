@@ -96,10 +96,12 @@ export default function AssemblyEndgame() {
        useEffect(()=>{
        
          function handleKeyDown(event){
-            if(!isGameOver) {addGuessedLetter(event.key.toLowerCase())
+            if(!isGameOver) {/^[a-z]$/i.test(event.key)&& addGuessedLetter(event.key.toLowerCase())
               }
-            else{
-              startNewGame()
+              else {
+                if (event.key === "Enter") {
+                    startNewGame()
+                }
             }
             }       
             
